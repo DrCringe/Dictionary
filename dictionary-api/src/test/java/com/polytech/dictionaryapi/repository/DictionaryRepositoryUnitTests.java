@@ -36,7 +36,7 @@ public class DictionaryRepositoryUnitTests {
     private Entry testEntry;
 
     @Container
-    public static PostgreSQLContainer<?> dictionaryContainer = new PostgreSQLContainer<>("dictionary-postgres:latest");
+    public static PostgreSQLContainer<?> dictionaryContainer = new PostgreSQLContainer<>("dictionary-postgres");
 
     @Autowired
     private TestEntityManager entityManager;

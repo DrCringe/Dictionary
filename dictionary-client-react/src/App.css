@@ -1,0 +1,63 @@
+.card:hover {
+  background-color: rgba(246, 248, 250, 1);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+.list-group-item:hover {
+  background-color: rgba(246, 248, 250, 1);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+.card .btn {
+  visibility: hidden;
+}
+
+.card:hover .btn {
+  visibility: visible;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, .25)!important;
+  border-color: black;
+}
+
+.form-group .form-control::placeholder {
+  color: #dc3545;
+  opacity: 1;
+}
+
+.navbar .form-control:focus, .navbar .form-control:hover {
+  border: none;
+  box-shadow: 0 .25rem .5rem rgba(0, 0, 0, .15)!important;
+}
+
+.navbar .list-group {
+  box-shadow: 0 .25rem .5rem rgba(0, 0, 0, .15)!important;
+  border-top: 1px solid #ced4da;
+  border-bottom-right-radius: .3rem;
+  border-bottom-left-radius: .3rem;
+}
+
+.navbar .list-group-item {
+  border: none;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+}
+
+.navbar .list-group-item:first-child {
+  border-radius: 0px;
+}
+
+.navbar .list-group-item:last-child {
+  border-bottom-right-radius: .3rem;
+  border-bottom-left-radius: .3rem;
+}
+
+code {
+  background-color: #f1f2f3;
+  border-radius: 0.4rem;
+  color: #1c1e21;
+  margin: 0px;
+  padding: 0.2rem 0.4rem;
+}

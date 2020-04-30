@@ -17,7 +17,6 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 @RestController
 public class DictionaryController {
 
