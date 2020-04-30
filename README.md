@@ -26,7 +26,7 @@ Lastly, you need to start client app. You can either run `npm start` in dictiona
 node.js and npm installed locally on your system, or also dockerize it
 ```
 docker build -t <username>/dictionary-client-react .
-docker run --name dict_client --rm -it -p 4040:3000 <username>/dictionary-client-react
+docker run --name <container_name> --rm -it -p 4040:3000 <username>/dictionary-client-react
 ```
 ### Testing
 Dictionary API tests also require docker images of dictionary database and dictionary API. By default, image names set to
